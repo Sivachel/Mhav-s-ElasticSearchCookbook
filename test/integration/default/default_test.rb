@@ -18,7 +18,7 @@ end
 
 describe package("elasticsearch") do
   it { should be_installed }
-its('version') { should match /6.4\./ }
+its('version') { should match /6.6\./ }
 end
 
 describe file("/etc/elasticsearch/elasticsearch.yml") do
